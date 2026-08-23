@@ -1,0 +1,20 @@
+
+<!-- saved from url=(0089)https://www-crossjacks-com.filesusr.com/html/526cf9_477f51b5af7c19a25420f42237462ddb.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript">
+function searchQRZ() {
+    var cs = document.getElementById('call').value;
+    window.open('https://www.qrz.com/lookup/' + cs,'','left=30, top=30,height=720,width=1280',true);
+    document.getElementById('call').value = '';
+
+}
+</script>
+</head><body><table cellpadding="9" border="0" cellspacing="0" style="border:solid 1px #000;background-color:#cc9">
+    <tbody><tr><td valign="center">
+    <b>QRZ callsign lookup:</b>
+    <input type="text" id="call" size="8">
+    <button onclick="searchQRZ();">Search</button><button>
+    <div style="text-align:right;font-size:0.7em">
+	Callsign lookups provided by <a href="https://www.qrz.com/">qrz.com</a>
+    </div>
+    </button></td></tr>
+</tbody></table></body></html>
