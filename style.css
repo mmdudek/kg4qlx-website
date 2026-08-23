@@ -1,0 +1,24 @@
+
+*{box-sizing:border-box}
+body{margin:0;background:#000;color:#fff;font-family:Arial,Helvetica,sans-serif}
+.page{max-width:1100px;margin:0 auto;padding:18px}
+.header{background:#111;border-bottom:4px solid #f8ff00;padding:12px 18px;margin-bottom:18px}
+.callsign{display:inline-block;background:#f8ff00;color:#000;font-weight:bold;font-size:20px;padding:7px 10px}
+.nav{margin-top:12px}
+.nav a{color:#f8ff00;text-decoration:none;font-weight:bold;margin-right:20px}
+.nav a:hover{text-decoration:underline}
+h1,h2{color:#f8ff00}
+h1{font-size:28px;margin:8px 0 18px}
+h2{font-size:20px;margin-top:28px;border-bottom:1px solid #555;padding-bottom:5px}
+.panel{background:#111;border:1px solid #555;padding:14px;margin:14px 0}
+.links{display:flex;flex-wrap:wrap;gap:10px 18px}
+.links a{color:#f8ff00}
+table{border-collapse:collapse;width:100%;margin:12px 0;font-size:14px}
+th,td{border:1px solid #777;padding:6px 8px;text-align:center}
+th{background:#222;color:#f8ff00}
+td{background:#080808}
+.note{font-size:13px;line-height:1.55}
+iframe{display:block;width:100%;border:0;background:#000;margin:10px 0}
+.live{overflow:hidden}
+footer{border-top:1px solid #555;margin-top:30px;padding:12px 0;color:#aaa;font-size:12px}
+img.bandchart{max-width:100%;height:auto;display:block;margin:10px auto}
